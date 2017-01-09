@@ -11,8 +11,9 @@ goog.require('zb.ui.HelpBarItem');
 dc.widgets.helpBarItemFactory.item = function(options, opt_callback) {
 	var item = new zb.ui.HelpBarItem(options);
 
-	var callback = typeof opt_callback === 'function' ? opt_callback : function() {};
-	item.on(item.EVENT_CLICK, callback);
+	if (typeof opt_callback === 'function') {
+		item.on(item.EVENT_CLICK, opt_callback);
+	}
 
 	return item;
 };
