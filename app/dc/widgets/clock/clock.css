@@ -1,0 +1,93 @@
+/* Clock widget
+*******************************/
+
+.w-clock-digit {
+	position: relative;
+}
+	.w-clock-digit:before {
+		color: #050505;
+		content: '8';
+	}
+	.w-clock-digit:after {
+		text-align: right;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+	.w-clock-digit._0:after {
+		content: '0';
+	}
+	.w-clock-digit._0:first-child:after {
+		content: ' ';
+	}
+	.w-clock-digit._1:after {
+		content: '1';
+	}
+	.w-clock-digit._2:after {
+		content: '2';
+	}
+	.w-clock-digit._3:after {
+		content: '3';
+	}
+	.w-clock-digit._4:after {
+		content: '4';
+	}
+	.w-clock-digit._5:after {
+		content: '5';
+	}
+	.w-clock-digit._6:after {
+		content: '6';
+	}
+	.w-clock-digit._7:after {
+		content: '7';
+	}
+	.w-clock-digit._8:after {
+		content: '8';
+	}
+	.w-clock-digit._9:after {
+		content: '9';
+	}
+
+.w-clock {
+	font-family: 'Digital-7';
+	font-size: 300px;
+}
+	.w-clock__table {
+		width: 100%;
+		height: 100%;
+		display: table;
+	}
+	.w-clock__cell {
+		text-align: center;
+		vertical-align: middle;
+		display: table-cell;
+	}
+	.w-clock__center {
+		vertical-align: top;
+		display: inline-block;
+	}
+	.w-clock__colon,
+	.w-clock .w-clock-digit {
+		float: left;
+	}
+	.w-clock__colon {
+		color: transparent;
+	}
+	.w-clock__colon:nth-child(6),
+	.w-clock .w-clock-digit:nth-child(7),
+	.w-clock .w-clock-digit:nth-child(8) {
+		display: none;
+	}
+
+.w-clock._seconds-visible {}
+	.w-clock._seconds-visible .w-clock__colon:nth-child(6),
+	.w-clock._seconds-visible .w-clock-digit:nth-child(7),
+	.w-clock._seconds-visible .w-clock-digit:nth-child(8) {
+		display: block;
+	}
+
+.w-clock._colons-visible {}
+	.w-clock._colons-visible .w-clock__colon {
+		color: inherit;
+	}

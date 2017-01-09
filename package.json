@@ -1,0 +1,14 @@
+{
+  "name": "DigitalClock",
+  "version": "1.0.0",
+  "dependencies": {
+    "zombiebox": "0.1.23",
+    "zombiebox-extension-ui": "0.3.2",
+    "zombiebox-platform-samsung": "0.0.43"
+  },
+  "scripts": {
+    "run": "zb run",
+    "build:pc": "zb build pc",
+    "build:samsung": "zb build samsung"
+  }
+}

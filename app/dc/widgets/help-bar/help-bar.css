@@ -1,0 +1,10 @@
+/* HelpBar widget
+*******************************/
+
+.w-help-bar {
+	position: relative;
+	padding: 12px 23px;
+}
+	.w-help-bar .w-help-bar-item {
+		margin-left: 20px;
+	}

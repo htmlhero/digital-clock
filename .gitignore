@@ -1,0 +1,8 @@
+.idea
+.DS_Store
+node_modules
+npm-debug.log
+.code-cache
+dist
+docs
+web/dev.js

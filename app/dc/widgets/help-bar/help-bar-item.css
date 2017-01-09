@@ -1,0 +1,76 @@
+/* HelpBarItem widget
+*******************************/
+
+.w-help-bar-item {
+	font-size: 18px;
+	line-height: 1;
+	color: #fff;
+	position: relative;
+	padding: 6px 15px 6px 40px;
+	border-radius: 2px;
+}
+	.w-help-bar-item::before {
+		width: 24px;
+		height: 24px;
+		font-family: 'Icomoon';
+		-webkit-font-smoothing: antialiased;
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 4px;
+		margin-top: -12px;
+		border-radius: 2px;
+	}
+
+.w-help-bar-item._red {}
+	.w-help-bar-item._red::before {
+		background-color: #f00;
+	}
+
+.w-help-bar-item._green {}
+	.w-help-bar-item._green::before {
+		background-color: #168a39;
+	}
+
+.w-help-bar-item._yellow {}
+	.w-help-bar-item._yellow::before {
+		background-color: #fea200;
+	}
+
+.w-help-bar-item._blue {}
+	.w-help-bar-item._blue::before {
+		background-color: #0003ff;
+	}
+
+.w-help-bar-item._play,
+.w-help-bar-item._pause,
+.w-help-bar-item._back {
+	padding-left: 34px;
+}
+	.w-help-bar-item._play::before,
+	.w-help-bar-item._pause::before,
+	.w-help-bar-item._back::before {
+		width: 30px;
+		height: 22px;
+		font-size: 22px;
+	}
+
+.w-help-bar-item._play {}
+	.w-help-bar-item._play::before {
+		content: '\e001';
+	}
+
+.w-help-bar-item._pause {}
+	.w-help-bar-item._pause::before {
+		content: '\e002';
+	}
+
+.w-help-bar-item._back {}
+	.w-help-bar-item._back::before {
+		content: '\e003';
+	}
+
+.w-help-bar-item._active {
+	background: #fff;
+	color: #1a1a1a;
+}
