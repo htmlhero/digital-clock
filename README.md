@@ -1,5 +1,5 @@
 # Digital Clock
-Application for Smart TV.
+Clock application for Smart TV.
 
 License
 -----
