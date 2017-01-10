@@ -4,5 +4,5 @@ node_modules
 npm-debug.log
 .code-cache
 dist
-docs
+src
 web/dev.js
