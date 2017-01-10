@@ -2,6 +2,7 @@ goog.provide('dc.Application');
 goog.require('dc.BaseApplication');
 goog.require('dc.services.Settings');
 goog.require('zb.console');
+goog.require('zb.device.Resolution');
 
 
 
@@ -38,6 +39,17 @@ dc.Application.prototype.onStart = function() {
 	}
 
 	this.home();
+};
+
+
+/**
+ * @override
+ */
+dc.Application.prototype._appendScreenSizeClass = function() {
+	var resolution = zb.device.ResolutionInfo[zb.device.Resolution.HD];
+
+	this._body.classList.add('zb-' + resolution.name);
+	this._appendViewportSize(resolution);
 };
 
 
