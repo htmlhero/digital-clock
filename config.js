@@ -1,3 +1,6 @@
+var ip = require('ip');
+
+
 /**
  * @return {Object}
  */
@@ -6,7 +9,7 @@ module.exports = function() {
 		appNamespace: 'dc',
 		samsung: {
 			widgetServer: {
-				ip: '192.168.1.23'
+				ip: ip.address()
 			},
 			widgetConfig: {
 				widget: {

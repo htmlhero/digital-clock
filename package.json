@@ -2,6 +2,8 @@
   "name": "DigitalClock",
   "version": "1.0.0",
   "dependencies": {
+    "http-server": "^0.9.0",
+    "ip": "1.1.2",
     "zombiebox": "0.1.23",
     "zombiebox-extension-ui": "0.3.2",
     "zombiebox-platform-samsung": "0.0.43"
@@ -9,6 +11,7 @@
   "scripts": {
     "dev": "zb run",
     "build:pc": "zb build pc",
-    "build:samsung": "zb build samsung"
+    "build:samsung": "zb build samsung",
+    "deploy:samsung": "http-server ./dist/1.0.0/samsung/ -p 80"
   }
 }
