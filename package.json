@@ -1,6 +1,9 @@
 {
   "name": "DigitalClock",
   "version": "1.0.0",
+  "description": "Clock application for Smart TV",
+  "author": "Andrew Motoshin <andrew@htmlhero.ru>",
+  "license": "MIT",
   "dependencies": {
     "http-server": "^0.9.0",
     "ip": "1.1.2",
@@ -13,5 +16,9 @@
     "build:pc": "zombiebox build pc",
     "build:samsung": "zombiebox build samsung",
     "serve:samsung": "http-server ./dist/1.0.0/samsung/ -p 80"
-  }
+  },
+  "keywords": [
+    "samsung",
+    "smart tv"
+  ]
 }
