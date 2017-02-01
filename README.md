@@ -18,7 +18,7 @@ npm run build:samsung
 
 Serve Samsung application:
 ```sh
-sudo npm run deploy:samsung
+sudo npm run serve:samsung
 ```
 
 ### For Samsung Smart TV H-series (year 2014)

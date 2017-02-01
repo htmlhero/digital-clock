@@ -9,9 +9,9 @@
     "zombiebox-platform-samsung": "0.0.43"
   },
   "scripts": {
-    "dev": "zb run",
-    "build:pc": "zb build pc",
-    "build:samsung": "zb build samsung",
-    "deploy:samsung": "http-server ./dist/1.0.0/samsung/ -p 80"
+    "dev": "zombiebox run",
+    "build:pc": "zombiebox build pc",
+    "build:samsung": "zombiebox build samsung",
+    "serve:samsung": "http-server ./dist/1.0.0/samsung/ -p 80"
   }
 }
