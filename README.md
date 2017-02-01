@@ -26,11 +26,8 @@ sudo npm run deploy:samsung
 1. Login under "developer"
 	1. Press **Menu** remote button (or Misc button on touch remote and select Menu button on the screen).
 	2. Select **Smart Hub** -\> **Samsung Account** -\> **Login**
-
-		**Login:** develop
-		
-		**Password:** 11111111
-
+		* **Login:** develop
+		* **Password:** 11111111
 	3. Press **Log In**.
 2. Add IP
 	1. Press the **Smart hub** remote button.
@@ -47,11 +44,8 @@ sudo npm run deploy:samsung
 	1. Press **Smart hub** remote button.
 	2. Press **Menu** remote button (or Misc button on touch remote and select Menu button on the screen).
 	3. Select **Smart Features** -\> **Samsung Account** -\> **Log In**
-
-		**Login:** develop
-
-		**Password:** sso1029dev!
-
+		* **Login:** develop
+		* **Password:** sso1029dev!
 	4. Check **Remember my password**.
 	5. Press **Log In**.
 2. Add IP
@@ -67,11 +61,8 @@ sudo npm run deploy:samsung
 1. Login under "developer"
 	1. Press **Smart hub** remote button.
 	2. Press **red (A)** remote button.
-
-		**Login:** develop
-
-		**Password:** 111111
-
+		* **Login:** develop
+		* **Password:** 111111
 2. Add IP
 	1. Press **Tools** remote button.
 	2. Select **Settings**.
