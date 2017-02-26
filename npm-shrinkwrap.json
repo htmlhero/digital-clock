@@ -1250,11 +1250,6 @@
       "from": "inherits@>=2.0.0 <3.0.0",
       "resolved": "https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz"
     },
-    "ip": {
-      "version": "1.1.2",
-      "from": "https://registry.npmjs.org/ip/-/ip-1.1.2.tgz",
-      "resolved": "https://registry.npmjs.org/ip/-/ip-1.1.2.tgz"
-    },
     "is-binary-path": {
       "version": "1.0.1",
       "from": "is-binary-path@>=1.0.0 <2.0.0",
