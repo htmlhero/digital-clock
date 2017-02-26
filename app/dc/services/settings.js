@@ -17,7 +17,7 @@ dc.services.Settings = function() {
 
 	this._settingsDefault = {};
 	this._settingsDefault[dc.services.Settings.Key.COLONS_BLINKING] = false;
-	this._settingsDefault[dc.services.Settings.Key.SECONDS_VISIBLE] = false;
+	this._settingsDefault[dc.services.Settings.Key.SECONDS_VISIBLE] = true;
 
 	this._storage = null;
 };
