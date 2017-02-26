@@ -8,3 +8,10 @@
 	.w-help-bar .w-help-bar-item {
 		margin-left: 20px;
 	}
+
+.zb-full-hd .w-help-bar {
+	padding: 18px 34px;
+}
+	.zb-full-hd .w-help-bar .w-help-bar-item {
+		margin-left: 30px;
+	}

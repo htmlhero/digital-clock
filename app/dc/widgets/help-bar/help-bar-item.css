@@ -74,3 +74,29 @@
 	background-color: #fff;
 	color: #1a1a1a;
 }
+
+.zb-full-hd .w-help-bar-item {
+	font-size: 27px;
+	padding: 9px 22px 9px 60px;
+	border-radius: 3px;
+}
+	.zb-full-hd .w-help-bar-item::before {
+		width: 36px;
+		height: 36px;
+		left: 6px;
+		margin-top: -18px;
+		border-radius: 3px;
+	}
+
+.zb-full-hd .w-help-bar-item._play,
+.zb-full-hd .w-help-bar-item._pause,
+.zb-full-hd .w-help-bar-item._back {
+	padding-left: 51px;
+}
+	.zb-full-hd .w-help-bar-item._play::before,
+	.zb-full-hd .w-help-bar-item._pause::before,
+	.zb-full-hd .w-help-bar-item._back::before {
+		width: 45px;
+		height: 33px;
+		font-size: 33px;
+	}

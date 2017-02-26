@@ -91,3 +91,7 @@
 	.w-clock._colons-visible .w-clock__colon {
 		color: inherit;
 	}
+
+.zb-full-hd .w-clock {
+	font-size: 450px;
+}

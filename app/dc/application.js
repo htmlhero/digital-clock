@@ -46,7 +46,12 @@ dc.Application.prototype.onStart = function() {
  * @override
  */
 dc.Application.prototype._appendScreenSizeClass = function() {
-	var resolution = zb.device.ResolutionInfo[zb.device.Resolution.HD];
+	var resulutionType = this.device.info.osdResolutionType();
+	if (resulutionType !== zb.device.Resolution.HD && resulutionType !== zb.device.Resolution.FULL_HD) {
+		resulutionType = zb.device.Resolution.HD;
+	}
+
+	var resolution = zb.device.ResolutionInfo[resulutionType];
 
 	this._body.classList.add('zb-' + resolution.name);
 	this._appendViewportSize(resolution);
